@@ -9,7 +9,7 @@ char teks[50];
 int main(){
   //Berikut fungsi strlen();
 
-  cout<<" FUNGSI STRLEM(); "<<endl;
+  cout<<" FUNGSI STRLEN(); "<<endl;
   cout<<"==================="<<endl;
   cout<<" Inputkan teks bebas :";gets(teks);
   cout<<" Jumlah karakter yang diinputkan : ";
