@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <conio.h>
-#include <fstream.h>
 #include <string.h>
 
 int main(){
 
   char kata1[50],kata2[50],banding,a;
-
+  
+naik:
   cout<<" FUNGSI STRCMP PERBANDINGAN STRING"<<endl;
   cout<<" ================================="<<endl;
   cout<<" Masukan kalimat ke-1 :";gets(kata1);
@@ -23,7 +23,12 @@ int main(){
   }
 cout<<" Masukan lagi[Y/N] :";
 cin>>a;
-system("cls");
+system("cls") ;
+ if(a=='y'||a=='Y') {
+   goto naik;
+}else{
+  cout<<"<--Program logout-->";
+}
 
 
 /*
